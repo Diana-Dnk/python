@@ -305,16 +305,17 @@
 # Логика:
 # если хотя бы одно условие выполнено → "Доступ разрешён"
 # иначе → "Доступ запрещён"
+# def check_permission(age, has_permission):
+#     def is_adult():
+#         return age>=18
+#     def has_parent_permission():
+#         return has_permission==True
+#     if is_adult() and has_parent_permission():
+#         return "Доступ разрешён"
+#     else: 
+#         return "Доступ запрещён"
+# print(check_permission(20,True))
+# print(check_permission(20,False))
+# print(check_permission(10,False))
 
-def check_permission(age, has_permission):
-    def is_adult():
-        return age>=18
-    def has_parent_permission():
-        return has_permission==True
-    if is_adult() and has_parent_permission():
-        return "Доступ разрешён"
-    else: 
-        return "Доступ запрещён"
-print(check_permission(20,True))
-print(check_permission(20,False))
-print(check_permission(10,False))
+

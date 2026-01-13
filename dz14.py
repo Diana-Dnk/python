@@ -76,16 +76,16 @@
 # Функция check_payment(amount, balance).
 # check_amount() — сумма > 0
 # check_balance() — баланс ≥ суммы
-# Результат: «Оплата прошла» / «Недостаточно средств»
-def check_payment(amount, balance):
-    def check_amount():
-        return amount>0
-    def check_balance():
-        return balance>=amount
-    if check_amount() and check_balance():
-        return "Оплата прошла"
-    else:
-        return "Недостаточно средств"
-print(check_payment(1000,3000))
-print(check_payment(0,3000))
-print(check_payment(5000,3000))
+# # Результат: «Оплата прошла» / «Недостаточно средств»
+# def check_payment(amount, balance):
+#     def check_amount():
+#         return amount>0
+#     def check_balance():
+#         return balance>=amount
+#     if check_amount() and check_balance():
+#         return "Оплата прошла"
+#     else:
+#         return "Недостаточно средств"
+# print(check_payment(1000,3000))
+# print(check_payment(0,3000))
+# print(check_payment(5000,3000))
